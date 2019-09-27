@@ -2,7 +2,7 @@ class A
 {
 	void validAge ( int age )
 	{
-		if ( age < 18)
+		if ( age < 18 )
 		{
 			throw new ArithmeticException ( "Age is not valid for admission." );
 		}
@@ -19,7 +19,7 @@ public class Main
 	{
 		try
 		{
-			int num = 5 /0;
+			int num = 5 / 0;
 		}
 		catch ( ArithmeticException e )
 		{
